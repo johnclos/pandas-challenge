@@ -15,15 +15,15 @@
 # A dataframe is created for unique players.
 # The number of male, female and undisclosed are determined for gender.
 # A total count is calculated, followed by percent for each player and this is added to the dataframe.
-# The columns are formatted.
+# The columns are formatted and the data are displayed.
 
 # Purchasing Analysis (Gender)
 # groupby person and sum the total price
 # Using GroupBy in order to separate the data into fields according to "Gender" values
 # Use describe to visualize the data
 # filter on 'count' and 'mean'
-# groupby gender and the sum pri
-# groupby gender and then take the mean
+# groupby gender and the sum by price
+# groupby gender and then take the mean of the price
 # rename 'count' to 'Purchase Count' and 'mean' to 'Average Purchase Price'
 # format 'Purchase Count' to integer
 # create the dictionary to format all float columns to dollars with two decimal points
@@ -53,10 +53,10 @@
 # Establish bins for ages   
 # Create the names for the five bins
 # Run basic calculations to obtain purchase count, avg. purchase price, avg. purchase total per person etc.
-# Calculate the numbers and percentages by age group
+# Group by age
 # Create a summary dataframe to hold the results
 # filter for the 'count' and average purchase price
-# groupby gender and then sum price
+# groupby by age ranges and then sum price
 # for each age range, divide 'Total Purchase Value' by the total number of unique players to create 'Avg Total Purchase per Person'
 # rename ('Purchase', 'count') to 'Purchase Count' and ('Price', 'mean') to 'Average Purchase Price'
 # format 'Purchase Count' to integer
@@ -66,10 +66,10 @@
 
 # Top Spenders
 # rename the original dataframe to one for age
-# group by SN
+# group by player
 # Create a summary dataframe to hold the results
 # filter for the 'count' and average purchase price
-# groupby gender and the sum pri
+# group by player and then sum by price
 # Sort in descending order based on "Total Purchase Value" column
 # rename 'count' to 'Purchase Count' and 'mean' to 'Average Purchase Price'
 # format 'Purchase Count' to integer
